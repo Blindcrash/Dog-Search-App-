@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MainActivity : AppCompatActivity(), android.widget.SearchView.OnQueryTextListener {
+class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
     // Variable creada para bindear las vistas
     private lateinit var binding:ActivityMainBinding
     private lateinit var adapter:DogAdapter
